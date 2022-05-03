@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+}
+
+.black  {
+  background-color: black;
+  height: 200px;
+  width: 40px;
+  outline: solid black 1px;
+  margin: 0 -20px;
+  z-index: 1;
+}
+
+.white {
+  background-color: white;
+  height: 300px;
+  width: 70px;
+  outline: solid black 1px;
+}
