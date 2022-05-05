@@ -18,9 +18,17 @@ body {
   z-index: 1;
 }
 
+.black.active {
+  background-color: rgb(63, 63, 63);
+}
+
 .white {
   background-color: white;
   height: 300px;
   width: 70px;
   outline: solid black 1px;
+}
+
+.white.active {
+  background-color: rgb(188, 186, 186);
 }
